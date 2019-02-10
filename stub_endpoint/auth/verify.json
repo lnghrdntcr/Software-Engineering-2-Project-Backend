@@ -1,0 +1,13 @@
+{
+  "success": {
+    "status": 200,
+    "success": true,
+    "message": "Email verified"
+  },
+  "invalid_code": {
+    "status": 401,
+    "success": false,
+    "error": "InvalidCode",
+    "message": "Verification code is not valid"
+  }
+}

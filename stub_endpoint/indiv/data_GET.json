@@ -1,0 +1,15 @@
+{
+  "success": {
+    "status": 200,
+    "success": true,
+    "data": [
+
+    ]
+  },
+  "bad_request": {
+    "status": 400,
+    "success": false,
+    "error": "InvalidToken",
+    "message": "Token is invalid"
+  }
+}

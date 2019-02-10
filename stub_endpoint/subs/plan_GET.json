@@ -1,0 +1,20 @@
+{
+  "success": {
+    "status": 200,
+    "success": true,
+    "plans": {
+    }
+  },
+  "plan_unavailable": {
+    "status": 400,
+    "success": false,
+    "error": "PlanUnavailable",
+    "message": "Plan is not available"
+  },
+  "plan_not_found": {
+    "status": 404,
+    "success": false,
+    "error": "PlanNotFound",
+    "message": "Plan not found"
+  }
+}

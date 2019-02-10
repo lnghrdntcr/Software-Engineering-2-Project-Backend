@@ -1,0 +1,27 @@
+{
+  "success": {
+    "status": 200,
+    "success": true,
+    "run_ids": [
+      "345ACBEO"
+    ]
+  },
+  "invalid_data_time": {
+    "status": 422,
+    "success": false,
+    "error": "InfoNotValid",
+    "message": "Time not valid"
+  },
+  "invalid_data_coords": {
+    "status": 422,
+    "success": false,
+    "error": "InfoNotValid",
+    "message": "Coordinates not valid"
+  },
+  "invalid_credentials": {
+    "status": 403,
+    "success": false,
+    "error": "InvalidCredentials",
+    "message": "Invalid credentials"
+  }
+}

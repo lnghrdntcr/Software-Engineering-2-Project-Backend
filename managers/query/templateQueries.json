@@ -1,0 +1,28 @@
+{
+  "individual": {
+    "insert_query": "INSERT INTO individual_query(id, SSN, additional_params) VALUES($1, $2, $3) RETURNING *",
+    "params": [
+      "ssn",
+      "additional_params"
+    ]
+  },
+  "regional": {
+    "insert_query": "INSERT INTO regional_query(id, region, additional_params) VALUES($1, $2, $3) RETURNING *",
+    "params": [
+      "region",
+      "additional_params"
+    ]
+  },
+  "radius": {
+    "insert_query": "INSERT INTO radius_query(id, center_lat, center_long, radius, additional_params) VALUES($1, $2, $3, $4, $5) RETURNING *",
+    "params": [
+      "center_lat",
+      "center_long",
+      "radius",
+      "additional_params"
+    ]
+  }
+}
+
+
+

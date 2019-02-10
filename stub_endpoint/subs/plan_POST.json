@@ -1,0 +1,25 @@
+{
+  "success": {
+    "status": 200,
+    "success": true,
+    "message": "$PLAN bought"
+  },
+  "bad_request": {
+    "status": 400,
+    "success": false,
+    "error": "InvalidToken",
+    "message": "Token is invalid"
+  },
+  "plan_not_found": {
+    "status": 404,
+    "success": false,
+    "error": "PlanNotFound",
+    "message": "Plan not found"
+  },
+  "payment_required": {
+    "status": 402,
+    "success": false,
+    "error": "PaymentRequired",
+    "message": "Payment required"
+  }
+}
